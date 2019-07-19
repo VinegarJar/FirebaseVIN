@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1A2CC17A5DDA8C40FF0F0A /* libPods-FirebaseVIN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15563325F372791C91501E30 /* libPods-FirebaseVIN.a */; };
 		B7225BFF22E1BD67006CB749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225BFE22E1BD67006CB749 /* AppDelegate.m */; };
 		B7225C0222E1BD67006CB749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C0122E1BD67006CB749 /* ViewController.m */; };
 		B7225C0522E1BD67006CB749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7225C0322E1BD67006CB749 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		B7225C0D22E1BD68006CB749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C0C22E1BD68006CB749 /* main.m */; };
 		B7225C1722E1BD68006CB749 /* FirebaseVINTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C1622E1BD68006CB749 /* FirebaseVINTests.m */; };
 		B7225C2222E1BD68006CB749 /* FirebaseVINUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C2122E1BD68006CB749 /* FirebaseVINUITests.m */; };
+		B7225C3722E1C5A7006CB749 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C3622E1C5A7006CB749 /* UIImage+Extend.m */; };
+		B7225C3B22E1CB2B006CB749 /* ToolsAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C3A22E1CB2B006CB749 /* ToolsAuthorization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15563325F372791C91501E30 /* libPods-FirebaseVIN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirebaseVIN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D93AC25C334985A14871030 /* Pods-FirebaseVIN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseVIN.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseVIN/Pods-FirebaseVIN.debug.xcconfig"; sourceTree = "<group>"; };
 		B7225BFA22E1BD67006CB749 /* FirebaseVIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseVIN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7225BFD22E1BD67006CB749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7225BFE22E1BD67006CB749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,12 @@
 		B7225C1D22E1BD68006CB749 /* FirebaseVINUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseVINUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7225C2122E1BD68006CB749 /* FirebaseVINUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirebaseVINUITests.m; sourceTree = "<group>"; };
 		B7225C2322E1BD68006CB749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7225C3522E1C5A7006CB749 /* UIImage+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		B7225C3622E1C5A7006CB749 /* UIImage+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		B7225C3822E1C8AE006CB749 /* GlobalMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMacros.h; sourceTree = "<group>"; };
+		B7225C3922E1CB2B006CB749 /* ToolsAuthorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsAuthorization.h; sourceTree = "<group>"; };
+		B7225C3A22E1CB2B006CB749 /* ToolsAuthorization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsAuthorization.m; sourceTree = "<group>"; };
+		CC9841F8E2D5CD95CD67B8AF /* Pods-FirebaseVIN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseVIN.release.xcconfig"; path = "Target Support Files/Pods-FirebaseVIN/Pods-FirebaseVIN.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1A2CC17A5DDA8C40FF0F0A /* libPods-FirebaseVIN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160D457332FEA4F491EE4745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D93AC25C334985A14871030 /* Pods-FirebaseVIN.debug.xcconfig */,
+				CC9841F8E2D5CD95CD67B8AF /* Pods-FirebaseVIN.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C2F5CFFED8C28CCE8F7384E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15563325F372791C91501E30 /* libPods-FirebaseVIN.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B7225BF122E1BD67006CB749 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				B7225C1522E1BD68006CB749 /* FirebaseVINTests */,
 				B7225C2022E1BD68006CB749 /* FirebaseVINUITests */,
 				B7225BFB22E1BD67006CB749 /* Products */,
+				160D457332FEA4F491EE4745 /* Pods */,
+				6C2F5CFFED8C28CCE8F7384E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +141,12 @@
 				B7225C0822E1BD67006CB749 /* LaunchScreen.storyboard */,
 				B7225C0B22E1BD68006CB749 /* Info.plist */,
 				B7225C0C22E1BD68006CB749 /* main.m */,
+				B7225C3822E1C8AE006CB749 /* GlobalMacros.h */,
+				B7225C3922E1CB2B006CB749 /* ToolsAuthorization.h */,
+				B7225C3A22E1CB2B006CB749 /* ToolsAuthorization.m */,
+				B7225C3122E1C55C006CB749 /* Category */,
+				B7225C3022E1C501006CB749 /* BankCards */,
+				B7225C2F22E1C501006CB749 /* VINCode */,
 			);
 			path = FirebaseVIN;
 			sourceTree = "<group>";
@@ -132,6 +169,29 @@
 			path = FirebaseVINUITests;
 			sourceTree = "<group>";
 		};
+		B7225C2F22E1C501006CB749 /* VINCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VINCode;
+			sourceTree = "<group>";
+		};
+		B7225C3022E1C501006CB749 /* BankCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BankCards;
+			sourceTree = "<group>";
+		};
+		B7225C3122E1C55C006CB749 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B7225C3522E1C5A7006CB749 /* UIImage+Extend.h */,
+				B7225C3622E1C5A7006CB749 /* UIImage+Extend.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7225C2622E1BD68006CB749 /* Build configuration list for PBXNativeTarget "FirebaseVIN" */;
 			buildPhases = (
+				11233C775C78E90A4922BDB0 /* [CP] Check Pods Manifest.lock */,
 				B7225BF622E1BD67006CB749 /* Sources */,
 				B7225BF722E1BD67006CB749 /* Frameworks */,
 				B7225BF822E1BD67006CB749 /* Resources */,
+				E92C22B8B1569B7287B4C3D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +319,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11233C775C78E90A4922BDB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseVIN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E92C22B8B1569B7287B4C3D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseVIN/Pods-FirebaseVIN-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseVIN/Pods-FirebaseVIN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7225BF622E1BD67006CB749 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B7225C0222E1BD67006CB749 /* ViewController.m in Sources */,
+				B7225C3B22E1CB2B006CB749 /* ToolsAuthorization.m in Sources */,
 				B7225C0D22E1BD68006CB749 /* main.m in Sources */,
 				B7225BFF22E1BD67006CB749 /* AppDelegate.m in Sources */,
+				B7225C3722E1C5A7006CB749 /* UIImage+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +544,7 @@
 		};
 		B7225C2722E1BD68006CB749 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D93AC25C334985A14871030 /* Pods-FirebaseVIN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +563,7 @@
 		};
 		B7225C2822E1BD68006CB749 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9841F8E2D5CD95CD67B8AF /* Pods-FirebaseVIN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

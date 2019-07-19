@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>是否允许App添加图片</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>如果不允许,将无法使用相册的照片进行VIN扫码识别功能和查看照片功能</string>
+    <key>NSCameraUsageDescription</key>
+    <string>如不允许,将无法使用相机拍照进行VIN扫码识别功能和拍照功能</string>
 </dict>
 </plist>
