@@ -18,6 +18,7 @@
 		B7225C2222E1BD68006CB749 /* FirebaseVINUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C2122E1BD68006CB749 /* FirebaseVINUITests.m */; };
 		B7225C3722E1C5A7006CB749 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C3622E1C5A7006CB749 /* UIImage+Extend.m */; };
 		B7225C3B22E1CB2B006CB749 /* ToolsAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C3A22E1CB2B006CB749 /* ToolsAuthorization.m */; };
+		B77F636B22E308C400E28400 /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F636A22E308C400E28400 /* CameraManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		B7225C3822E1C8AE006CB749 /* GlobalMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMacros.h; sourceTree = "<group>"; };
 		B7225C3922E1CB2B006CB749 /* ToolsAuthorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsAuthorization.h; sourceTree = "<group>"; };
 		B7225C3A22E1CB2B006CB749 /* ToolsAuthorization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsAuthorization.m; sourceTree = "<group>"; };
+		B77F636922E308C400E28400 /* CameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		B77F636A22E308C400E28400 /* CameraManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
 		CC9841F8E2D5CD95CD67B8AF /* Pods-FirebaseVIN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseVIN.release.xcconfig"; path = "Target Support Files/Pods-FirebaseVIN/Pods-FirebaseVIN.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,6 +182,8 @@
 		B7225C3022E1C501006CB749 /* BankCards */ = {
 			isa = PBXGroup;
 			children = (
+				B77F636922E308C400E28400 /* CameraManager.h */,
+				B77F636A22E308C400E28400 /* CameraManager.m */,
 			);
 			path = BankCards;
 			sourceTree = "<group>";
@@ -375,6 +380,7 @@
 				B7225C3B22E1CB2B006CB749 /* ToolsAuthorization.m in Sources */,
 				B7225C0D22E1BD68006CB749 /* main.m in Sources */,
 				B7225BFF22E1BD67006CB749 /* AppDelegate.m in Sources */,
+				B77F636B22E308C400E28400 /* CameraManager.m in Sources */,
 				B7225C3722E1C5A7006CB749 /* UIImage+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
