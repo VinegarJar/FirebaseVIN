@@ -10,7 +10,26 @@
 #import <AVFoundation/AVFoundation.h>
 
 
+
+@class CameraManager;
+
+@protocol CameraOutputSampleBufferDelegate <NSObject>
+
+@optional
+
+/** 输出捕捉到的视频数据传递*/
+ - (void)didOutputResult :(CameraManager*)result    sampleBuffer:(id)sampleBuffer;
+
+@end
+
+
+
+
+
+
 @interface CameraManager : NSObject
+
+@property (nonatomic, assign) id<CameraOutputSampleBufferDelegate> outputBufferDelegate;
 
 /** 捕捉会话,执行输入设备和输出设备之间的数据传递*/
 @property (nonatomic, strong) AVCaptureSession *captureSession;
@@ -29,6 +48,17 @@
 
 /** 摄像头设备*/
 @property (nonatomic,strong) AVCaptureDevice *device;
+
+/**@brief 初始化 Session*/
+- (BOOL)setupSession;
+
+/**@brief 开始启动startSession*/
+- (void)startSession;
+
+/**@brief 停止stopSession*/
+- (void)stopSession;
+
+- (void)resetParams;
 
 @end
 

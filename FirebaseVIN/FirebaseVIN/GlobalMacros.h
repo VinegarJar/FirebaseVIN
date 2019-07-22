@@ -29,8 +29,8 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 //RGB 转换 色值码
 typedef NS_ENUM(UInt32, ColorRGBType) {
-    UITitleColor             = 0x2D2D2D,
-    UIBagRefColor        = 0xEFEFF4,
+    UISerScanColor             = 0xFE4B3A ,
+    UISupScanColor           = 0x4D78E7,
 
 };
 
