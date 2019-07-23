@@ -39,6 +39,7 @@ typedef NS_ENUM(NSUInteger, CaptureStyleType){
 + (instancetype)vinCapturePreviewWithFrame:(CGRect)frame delegate:(id<CapturePreDelegate>)delegate;
 @property (nonatomic, weak) id<CapturePreDelegate> delegate;
 @property (nonatomic, assign) CaptureStyleType styleType;
+- (void)initializeShapeLayer;
 @end
 
 NS_ASSUME_NONNULL_END

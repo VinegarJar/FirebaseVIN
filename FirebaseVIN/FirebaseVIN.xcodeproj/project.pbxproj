@@ -18,25 +18,27 @@
 		B7225C2222E1BD68006CB749 /* FirebaseVINUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C2122E1BD68006CB749 /* FirebaseVINUITests.m */; };
 		B7225C3722E1C5A7006CB749 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C3622E1C5A7006CB749 /* UIImage+Extend.m */; };
 		B7225C3B22E1CB2B006CB749 /* ToolsAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = B7225C3A22E1CB2B006CB749 /* ToolsAuthorization.m */; };
+		B74FBFB922E6A160009B3D15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B74FBFB822E6A160009B3D15 /* GoogleService-Info.plist */; };
+		B74FBFBB22E6A624009B3D15 /* vin-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = B74FBFBA22E6A623009B3D15 /* vin-photo.png */; };
+		B74FBFBF22E6AAA7009B3D15 /* vin-photo-gys.png in Resources */ = {isa = PBXBuildFile; fileRef = B74FBFBE22E6AAA7009B3D15 /* vin-photo-gys.png */; };
+		B74FBFDF22E6B070009B3D15 /* IMG_0243.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B74FBFDE22E6B070009B3D15 /* IMG_0243.JPG */; };
+		B74FBFE122E6B111009B3D15 /* IMG_0244.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B74FBFE022E6B111009B3D15 /* IMG_0244.JPG */; };
+		B74FBFE322E6B21D009B3D15 /* E2DA71DED8287D65433DA0589421725A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B74FBFE222E6B21D009B3D15 /* E2DA71DED8287D65433DA0589421725A.jpg */; };
+		B74FBFE522E6B222009B3D15 /* 1D41C0FB66E21B95E8F67CBC1A8C9219.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B74FBFE422E6B221009B3D15 /* 1D41C0FB66E21B95E8F67CBC1A8C9219.jpg */; };
 		B7636E6F22E5953D00A8CAB7 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7636E6E22E5953D00A8CAB7 /* UIView+ViewController.m */; };
 		B7636E7222E5965100A8CAB7 /* VINCodeScan.m in Sources */ = {isa = PBXBuildFile; fileRef = B7636E7122E5965100A8CAB7 /* VINCodeScan.m */; };
 		B7636E8222E5A2B000A8CAB7 /* vin-picture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E7722E5A2B000A8CAB7 /* vin-picture@2x.png */; };
 		B7636E8322E5A2B000A8CAB7 /* vin-picture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E7822E5A2B000A8CAB7 /* vin-picture@3x.png */; };
 		B7636E8422E5A2B000A8CAB7 /* light-open@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E7922E5A2B000A8CAB7 /* light-open@1x.png */; };
 		B7636E8522E5A2B000A8CAB7 /* light-close@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E7A22E5A2B000A8CAB7 /* light-close@1x.png */; };
-		B7636E8622E5A2B000A8CAB7 /* vin-photo-gys@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E7B22E5A2B000A8CAB7 /* vin-photo-gys@3x.png */; };
 		B7636E8722E5A2B000A8CAB7 /* light-open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E7C22E5A2B000A8CAB7 /* light-open@2x.png */; };
 		B7636E8822E5A2B000A8CAB7 /* vin-picture@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E7D22E5A2B000A8CAB7 /* vin-picture@1x.png */; };
 		B7636E8922E5A2B000A8CAB7 /* light-close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E7E22E5A2B000A8CAB7 /* light-close@2x.png */; };
 		B7636E8A22E5A2B000A8CAB7 /* light-open@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E7F22E5A2B000A8CAB7 /* light-open@3x.png */; };
 		B7636E8B22E5A2B000A8CAB7 /* light-close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E8022E5A2B000A8CAB7 /* light-close@3x.png */; };
-		B7636E8C22E5A2B000A8CAB7 /* vin-photo-gys@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E8122E5A2B000A8CAB7 /* vin-photo-gys@2x.png */; };
 		B7636E8E22E5A33400A8CAB7 /* scanSuccess.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7636E8D22E5A33400A8CAB7 /* scanSuccess.wav */; };
 		B7636E9022E5A4E000A8CAB7 /* goBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E8F22E5A4E000A8CAB7 /* goBack@2x.png */; };
 		B7636E9322E5A8D900A8CAB7 /* VINCapturePreView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7636E9222E5A8D900A8CAB7 /* VINCapturePreView.m */; };
-		B7636E9722E5B39000A8CAB7 /* vin-photo-fws@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E9422E5B39000A8CAB7 /* vin-photo-fws@3x.png */; };
-		B7636E9822E5B39000A8CAB7 /* vin-photo-fws@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E9522E5B39000A8CAB7 /* vin-photo-fws@1x.png */; };
-		B7636E9922E5B39000A8CAB7 /* vin-photo-fws@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636E9622E5B39000A8CAB7 /* vin-photo-fws@2x.png */; };
 		B7636E9C22E5B9F800A8CAB7 /* VINCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7636E9B22E5B9F800A8CAB7 /* VINCodeController.m */; };
 		B77F636B22E308C400E28400 /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F636A22E308C400E28400 /* CameraManager.m */; };
 /* End PBXBuildFile section */
@@ -82,6 +84,13 @@
 		B7225C3822E1C8AE006CB749 /* GlobalMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMacros.h; sourceTree = "<group>"; };
 		B7225C3922E1CB2B006CB749 /* ToolsAuthorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsAuthorization.h; sourceTree = "<group>"; };
 		B7225C3A22E1CB2B006CB749 /* ToolsAuthorization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsAuthorization.m; sourceTree = "<group>"; };
+		B74FBFB822E6A160009B3D15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B74FBFBA22E6A623009B3D15 /* vin-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vin-photo.png"; sourceTree = "<group>"; };
+		B74FBFBE22E6AAA7009B3D15 /* vin-photo-gys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vin-photo-gys.png"; sourceTree = "<group>"; };
+		B74FBFDE22E6B070009B3D15 /* IMG_0243.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0243.JPG; sourceTree = "<group>"; };
+		B74FBFE022E6B111009B3D15 /* IMG_0244.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0244.JPG; sourceTree = "<group>"; };
+		B74FBFE222E6B21D009B3D15 /* E2DA71DED8287D65433DA0589421725A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E2DA71DED8287D65433DA0589421725A.jpg; sourceTree = "<group>"; };
+		B74FBFE422E6B221009B3D15 /* 1D41C0FB66E21B95E8F67CBC1A8C9219.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1D41C0FB66E21B95E8F67CBC1A8C9219.jpg; sourceTree = "<group>"; };
 		B7636E6D22E5953D00A8CAB7 /* UIView+ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		B7636E6E22E5953D00A8CAB7 /* UIView+ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
 		B7636E7022E5965100A8CAB7 /* VINCodeScan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VINCodeScan.h; sourceTree = "<group>"; };
@@ -90,20 +99,15 @@
 		B7636E7822E5A2B000A8CAB7 /* vin-picture@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vin-picture@3x.png"; sourceTree = "<group>"; };
 		B7636E7922E5A2B000A8CAB7 /* light-open@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-open@1x.png"; sourceTree = "<group>"; };
 		B7636E7A22E5A2B000A8CAB7 /* light-close@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-close@1x.png"; sourceTree = "<group>"; };
-		B7636E7B22E5A2B000A8CAB7 /* vin-photo-gys@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vin-photo-gys@3x.png"; sourceTree = "<group>"; };
 		B7636E7C22E5A2B000A8CAB7 /* light-open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-open@2x.png"; sourceTree = "<group>"; };
 		B7636E7D22E5A2B000A8CAB7 /* vin-picture@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vin-picture@1x.png"; sourceTree = "<group>"; };
 		B7636E7E22E5A2B000A8CAB7 /* light-close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-close@2x.png"; sourceTree = "<group>"; };
 		B7636E7F22E5A2B000A8CAB7 /* light-open@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-open@3x.png"; sourceTree = "<group>"; };
 		B7636E8022E5A2B000A8CAB7 /* light-close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-close@3x.png"; sourceTree = "<group>"; };
-		B7636E8122E5A2B000A8CAB7 /* vin-photo-gys@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vin-photo-gys@2x.png"; sourceTree = "<group>"; };
 		B7636E8D22E5A33400A8CAB7 /* scanSuccess.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scanSuccess.wav; sourceTree = "<group>"; };
 		B7636E8F22E5A4E000A8CAB7 /* goBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goBack@2x.png"; sourceTree = "<group>"; };
 		B7636E9122E5A8D900A8CAB7 /* VINCapturePreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VINCapturePreView.h; sourceTree = "<group>"; };
 		B7636E9222E5A8D900A8CAB7 /* VINCapturePreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VINCapturePreView.m; sourceTree = "<group>"; };
-		B7636E9422E5B39000A8CAB7 /* vin-photo-fws@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vin-photo-fws@3x.png"; sourceTree = "<group>"; };
-		B7636E9522E5B39000A8CAB7 /* vin-photo-fws@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vin-photo-fws@1x.png"; sourceTree = "<group>"; };
-		B7636E9622E5B39000A8CAB7 /* vin-photo-fws@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vin-photo-fws@2x.png"; sourceTree = "<group>"; };
 		B7636E9A22E5B9F800A8CAB7 /* VINCodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VINCodeController.h; sourceTree = "<group>"; };
 		B7636E9B22E5B9F800A8CAB7 /* VINCodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VINCodeController.m; sourceTree = "<group>"; };
 		B77F636922E308C400E28400 /* CameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
@@ -193,6 +197,10 @@
 				B7225C3A22E1CB2B006CB749 /* ToolsAuthorization.m */,
 				B77F636922E308C400E28400 /* CameraManager.h */,
 				B77F636A22E308C400E28400 /* CameraManager.m */,
+				B74FBFDE22E6B070009B3D15 /* IMG_0243.JPG */,
+				B74FBFE022E6B111009B3D15 /* IMG_0244.JPG */,
+				B74FBFE222E6B21D009B3D15 /* E2DA71DED8287D65433DA0589421725A.jpg */,
+				B74FBFE422E6B221009B3D15 /* 1D41C0FB66E21B95E8F67CBC1A8C9219.jpg */,
 				B7636E7622E5A1DC00A8CAB7 /* Resources */,
 				B7225C3122E1C55C006CB749 /* Category */,
 				B7225C3022E1C501006CB749 /* BankCards */,
@@ -253,6 +261,7 @@
 		B7636E7622E5A1DC00A8CAB7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B74FBFB822E6A160009B3D15 /* GoogleService-Info.plist */,
 				B7636E8D22E5A33400A8CAB7 /* scanSuccess.wav */,
 				B7636E7A22E5A2B000A8CAB7 /* light-close@1x.png */,
 				B7636E7E22E5A2B000A8CAB7 /* light-close@2x.png */,
@@ -260,15 +269,12 @@
 				B7636E7922E5A2B000A8CAB7 /* light-open@1x.png */,
 				B7636E7C22E5A2B000A8CAB7 /* light-open@2x.png */,
 				B7636E7F22E5A2B000A8CAB7 /* light-open@3x.png */,
-				B7636E8122E5A2B000A8CAB7 /* vin-photo-gys@2x.png */,
-				B7636E7B22E5A2B000A8CAB7 /* vin-photo-gys@3x.png */,
 				B7636E7D22E5A2B000A8CAB7 /* vin-picture@1x.png */,
 				B7636E7722E5A2B000A8CAB7 /* vin-picture@2x.png */,
 				B7636E7822E5A2B000A8CAB7 /* vin-picture@3x.png */,
 				B7636E8F22E5A4E000A8CAB7 /* goBack@2x.png */,
-				B7636E9522E5B39000A8CAB7 /* vin-photo-fws@1x.png */,
-				B7636E9622E5B39000A8CAB7 /* vin-photo-fws@2x.png */,
-				B7636E9422E5B39000A8CAB7 /* vin-photo-fws@3x.png */,
+				B74FBFBA22E6A623009B3D15 /* vin-photo.png */,
+				B74FBFBE22E6AAA7009B3D15 /* vin-photo-gys.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -378,23 +384,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7636E9922E5B39000A8CAB7 /* vin-photo-fws@2x.png in Resources */,
+				B74FBFDF22E6B070009B3D15 /* IMG_0243.JPG in Resources */,
 				B7636E8E22E5A33400A8CAB7 /* scanSuccess.wav in Resources */,
 				B7636E9022E5A4E000A8CAB7 /* goBack@2x.png in Resources */,
+				B74FBFE322E6B21D009B3D15 /* E2DA71DED8287D65433DA0589421725A.jpg in Resources */,
 				B7225C0A22E1BD67006CB749 /* LaunchScreen.storyboard in Resources */,
-				B7636E8C22E5A2B000A8CAB7 /* vin-photo-gys@2x.png in Resources */,
 				B7636E8222E5A2B000A8CAB7 /* vin-picture@2x.png in Resources */,
+				B74FBFBB22E6A624009B3D15 /* vin-photo.png in Resources */,
 				B7636E8822E5A2B000A8CAB7 /* vin-picture@1x.png in Resources */,
 				B7636E8322E5A2B000A8CAB7 /* vin-picture@3x.png in Resources */,
 				B7225C0722E1BD67006CB749 /* Assets.xcassets in Resources */,
+				B74FBFE122E6B111009B3D15 /* IMG_0244.JPG in Resources */,
 				B7636E8522E5A2B000A8CAB7 /* light-close@1x.png in Resources */,
+				B74FBFE522E6B222009B3D15 /* 1D41C0FB66E21B95E8F67CBC1A8C9219.jpg in Resources */,
+				B74FBFBF22E6AAA7009B3D15 /* vin-photo-gys.png in Resources */,
 				B7636E8422E5A2B000A8CAB7 /* light-open@1x.png in Resources */,
-				B7636E8622E5A2B000A8CAB7 /* vin-photo-gys@3x.png in Resources */,
 				B7636E8722E5A2B000A8CAB7 /* light-open@2x.png in Resources */,
 				B7636E8B22E5A2B000A8CAB7 /* light-close@3x.png in Resources */,
-				B7636E9822E5B39000A8CAB7 /* vin-photo-fws@1x.png in Resources */,
-				B7636E9722E5B39000A8CAB7 /* vin-photo-fws@3x.png in Resources */,
 				B7636E8922E5A2B000A8CAB7 /* light-close@2x.png in Resources */,
+				B74FBFB922E6A160009B3D15 /* GoogleService-Info.plist in Resources */,
 				B7636E8A22E5A2B000A8CAB7 /* light-open@3x.png in Resources */,
 				B7225C0522E1BD67006CB749 /* Main.storyboard in Resources */,
 			);

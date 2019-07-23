@@ -7,7 +7,7 @@
 // 
 
 #import "ViewController.h"
-
+#import "VINCodeController.h"
 @interface ViewController ()
 
 @end
@@ -20,5 +20,9 @@
     
 }
 
+- (IBAction)topButton:(UIButton *)sender {
+    VINCodeController *vinVC = [[VINCodeController  alloc] init];
+    [self presentViewController:vinVC animated:YES completion:nil];
+}
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "VINCapturePreView.h"
-
+#import "UIView+ViewController.h"
 
 @interface VINCapturePreView ()
 
@@ -39,7 +39,6 @@
         self.backgroundColor = [UIColor clearColor];
         _styleType = CaptureStyleSup;
         [self initializeUI];
-        [self initializeShapeLayer];
 
         self.m_width = (SCREEN_WIDTH - 40);
         self.m_higth = 80.0;
@@ -166,12 +165,11 @@
 //自定义导航title
 -(UILabel*)tipLabel{
     if (!_tipLabel ) {
-        _tipLabel  = [[UILabel alloc]initWithFrame:CGRectMake(0, 100, 115, 60)];
+        _tipLabel  = [[UILabel alloc]initWithFrame:CGRectMake((SCREEN_WIDTH-150)/2, 88, 150, 60)];
         [_tipLabel setFont:    [UIFont systemFontOfSize:17.0f]];
-        [_tipLabel  setText:@"对准目标拍照识别"];
+        [_tipLabel  setText:@"对准目标扫描识别"];
         [_tipLabel  setTextColor:[UIColor whiteColor]];
         [_tipLabel  setTextAlignment: NSTextAlignmentCenter];
-        _tipLabel.center = self.center;
         [self addSubview:_tipLabel];
     }
     return _tipLabel;
@@ -195,8 +193,8 @@
 -(UIButton*)flashlight{
     if (!_flashlight) {
         _flashlight = [UIButton buttonWithType:UIButtonTypeCustom];
-        _flashlight.frame = CGRectMake(SCREEN_WIDTH-100, 0, 100, 135);
-        _flashlight.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        _flashlight.frame = CGRectMake(SCREEN_WIDTH-88, 0, 88, 135);
+        _flashlight.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
         [_flashlight setImage:[UIImage imageNamed:@"light-close"] forState:UIControlStateNormal];
         [_flashlight setImage:[UIImage imageNamed:@"light-open"] forState:  UIControlStateSelected];
         [_flashlight addTarget:self action:@selector(flashlightClick:) forControlEvents:UIControlEventTouchUpInside];
@@ -210,8 +208,8 @@
 -(UIButton*)album{
     if (!_album) {
         _album = [UIButton buttonWithType:UIButtonTypeCustom];
-        _album.frame = CGRectMake(0, 0, 100, 135);
-        _album.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
+        _album.frame = CGRectMake(0, 0, 88, 135);
+        _album.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
         [_album setImage:[UIImage imageNamed:@"vin-picture"] forState:UIControlStateNormal];
         [_album addTarget:self action:@selector(albumClick:) forControlEvents:UIControlEventTouchUpInside];
         [_tabBar addSubview:_album];
@@ -219,17 +217,19 @@
     return _album;
 }
 
+
 //自定义底部导航相机按钮
 -(UIButton*)camera{
     if (!_camera) {
         _camera = [UIButton buttonWithType:UIButtonTypeCustom];
-        _camera.frame = CGRectMake((SCREEN_WIDTH-100)/2, 0, 100, 135);
+        _camera.frame = CGRectMake((SCREEN_WIDTH-88)/2, 0, 88, 135);
        _camera.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
         if (_styleType==CaptureStyleSup) {
-              [_camera setImage:[UIImage imageNamed:@"vin-photo-gys"] forState:UIControlStateNormal];
+            [_camera setImage:[UIImage imageNamed:@"vin-photo-gys"] forState:UIControlStateNormal];
         }else{
-              [_camera setImage:[UIImage imageNamed:@"vin-photo-fws"] forState:UIControlStateNormal];
+             [_camera setImage:[UIImage imageNamed:@"vin-photo"] forState:UIControlStateNormal];
         }
+        [_camera.imageView setContentMode:UIViewContentModeCenter];
         [_camera addTarget:self action:@selector(cameraClick:) forControlEvents:UIControlEventTouchUpInside];
         [_tabBar addSubview:_camera];
     }
@@ -259,7 +259,7 @@
 
 
 -(void)clickedBackBtn:(UIButton *)sender{
-    
+       [self.viewController  dismissViewControllerAnimated:YES completion:nil];
 }
 
 
