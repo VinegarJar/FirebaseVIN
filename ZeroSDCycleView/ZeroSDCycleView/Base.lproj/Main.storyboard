@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="uav-F9-ycR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="5CG-L5-44x">
+            <objects>
+                <navigationController id="uav-F9-ycR" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1uL-dl-jkh">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="WpP-fi-X9Z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6wZ-81-JQF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1441" y="124"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bx3-mr-o9y">
+                                <rect key="frame" x="156" y="264" width="62" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="dTG-NG-7gf"/>
+                                </constraints>
+                                <state key="normal" title="动画弹框"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zHT-t0-Mdh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5R-U5-Ykj">
+                                <rect key="frame" x="156" y="314" width="62" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eaE-B4-cZR"/>
+                                </constraints>
+                                <state key="normal" title="彩蛋动画"/>
+                                <connections>
+                                    <action selector="egg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="haX-ay-td6"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="领取前 女.png" translatesAutoresizingMaskIntoConstraints="NO" id="NVf-1A-sLB">
+                                <rect key="frame" x="110" y="362" width="154" height="205"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="205" id="RMn-LW-FUK"/>
+                                    <constraint firstAttribute="width" constant="154" id="m8z-N3-hMq"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NVf-1A-sLB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6tC-w9-b3u"/>
+                            <constraint firstItem="Bx3-mr-o9y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="200" id="Gjn-a0-ldJ"/>
+                            <constraint firstItem="U5R-U5-Ykj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N4M-QI-qt8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NVf-1A-sLB" secondAttribute="bottom" constant="100" id="jEK-C2-H7u"/>
+                            <constraint firstItem="U5R-U5-Ykj" firstAttribute="top" secondItem="Bx3-mr-o9y" secondAttribute="bottom" constant="20" id="qav-2o-dbV"/>
+                            <constraint firstItem="Bx3-mr-o9y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xOK-DK-Tzs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="oqz-qg-uKg"/>
+                    <connections>
+                        <outlet property="eggImageView" destination="NVf-1A-sLB" id="Sf3-l7-rXg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-642.39999999999998" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="领取前 女.png" width="366" height="595"/>
+    </resources>
+</document>
